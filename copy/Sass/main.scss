@@ -1,0 +1,15 @@
+$primary: gold;
+$light: #fbf5e5;
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colour:(
+    "altlight":#f2ebfa,
+    "altdark":#522192
+
+);
+
+$theme-colors:map-merge($custom-theme-colour, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap"; 
